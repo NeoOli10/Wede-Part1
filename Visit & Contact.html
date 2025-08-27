@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Katli’s Candy Shop • Visit & Contact</title>
+  <meta name="description" content="Visit Katli’s Candy Shop in Johannesburg or contact us for online orders across South Africa. Get in touch for custom sweets, events, and corporate gifts." />
+  <link rel="icon" href="CandyLogo.jpg" />
+  <style>
+    body {
+      background: url('Cartoon-Candy-Clipart-edit-online.png') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff5fa;
+    }
+    header, main, footer {
+      background-color: rgba(255, 255, 255, 0.9);
+      margin: 1rem;
+      padding: 1rem;
+      border-radius: 12px;
+    }
+    nav a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: #c2185b;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #8e24aa;
+    }
+    h1, h2 {
+      color: #6a1b9a;
+    }
+    .contact-info {
+      line-height: 1.6;
+    }
+    .contact-info strong {
+      color: #c2185b;
+    }
+    .form-section {
+      margin: 2rem 0;
+    }
+    form {
+      display: grid;
+      gap: 0.75rem;
+    }
+    input, textarea, button {
+      padding: 0.75rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #c2185b;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    button:hover {
+      background-color: #8e24aa;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      border-radius: 12px;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>📍 Visit & Contact Us</h1>
+    <nav>
+      <a href="home.html">Home</a> ·
+        <a href="about.html">About</a> ·
+        <a href="our treats.html">Our Treats</a> 
+        <a href="visit & Contact.html">Visit & Contact</a>·
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="contact-info">
+      <h2>Our Store</h2>
+      <p>
+        <strong>Location:</strong> Johannesburg (City Centre) <br />
+        <strong>Hours:</strong> Mon–Sat 9:00–18:00, Sun 10:00–16:00 <br />
+        <strong>Phone:</strong> <a href="tel:+27-000-000-0000">+27 00 000 0000</a> <br />
+        <strong>Email:</strong> <a href="mailto:hello@katliscandy.co.za">hello@katliscandy.co.za</a>
+      </p>
+      <p>We also serve customers nationwide with <strong>online orders</strong>.</p>
+	  <img src="image/pngtree.jpg"/>
+      <!-- Google Map Embed (replace with your real location link) -->
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.9410546175275!2d28.0473!3d-26.2041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c6f0a12d5cf%3A0xabcdef1234567890!2sJohannesburg!5e0!3m2!1sen!2sza!4v1234567890"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </section>
+	
+
+    <!-- Contact Form -->
+    <section class="form-section">
+      <h2>Send Us a Message</h2>
+      <form action="mailto:hello@katliscandy.co.za" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p style="font-size: 0.85rem; color: #666;">
+        (The form uses email — for advanced forms, a backend service can be added.)
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      © <span id="year"></span> Katli’s Candy Shop · Johannesburg, South Africa
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

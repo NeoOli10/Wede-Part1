@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Katli’s Candy Shop • About Us</title>
+  <meta name="description" content="Learn about Katli’s Candy Shop — our story, mission, vision, and values. Made with love in Johannesburg, spreading happiness one sweet at a time." />
+  <link rel="icon" href="CandyLogo.jpg" />
+  <style>
+    body {
+      background: url('Cartoon-Candy-Clipart-edit-online.png') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff5fa;
+    }
+    header, main, footer {
+      background-color: rgba(255, 255, 255, 0.9);
+      margin: 1rem;
+      padding: 1rem;
+      border-radius: 12px;
+    }
+    nav a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: #c2185b;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #8e24aa;
+    }
+    h1, h2 {
+      color: #6a1b9a;
+    }
+    .hero {
+      text-align: center;
+      padding: 1rem;
+    }
+    .hero img {
+      width: 200px;
+      height: auto;
+      border-radius: 50%;
+      margin: 1rem 0;
+    }
+    .content-section {
+      margin-bottom: 2rem;
+    }
+    blockquote {
+      font-style: italic;
+      color: #8e24aa;
+      border-left: 4px solid #c2185b;
+      padding-left: 1rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>🍭 About Katli’s Candy Shop</h1>
+    <nav>
+      <a href="home.html">Home</a> ·
+        <a href="about.html">About</a> ·
+        <a href="our treats.html">Our Treats</a> 
+        <a href="visit & Contact.html">Visit & Contact</a>·
+    </nav>
+  </header>
+
+  <!-- Hero / Intro -->
+  <main>
+    <section class="hero">
+      <img src="image/thu.jpg" alt="Founder Katli Oliphant" />
+      <p><em>“Spreading happiness, one sweet at a time.”</em></p>
+    </section>
+
+    <section class="content-section">
+      <h2>Our Story</h2>
+      <p>
+        Founded in 2022 by <strong>Katli Oliphant</strong>, a passionate sweet enthusiast, 
+        Katli’s Candy Shop began as a home-based venture selling handmade sour sweets and liquorice sticks 
+        at local markets. With unique flavors and colorful presentation, the shop quickly gained popularity 
+        and opened its first brick-and-mortar store in Johannesburg in 2023. 
+        Today, we proudly serve candy lovers across South Africa, both in-store and online.
+      </p>
+    </section>
+
+    <section class="content-section">
+      <h2>Our Mission</h2>
+      <blockquote>
+        “To spread happiness, one sweet at a time by creating irresistible, 
+        high-quality candies that delight our customers and celebrate the joy of life.”
+      </blockquote>
+    </section>
+
+    <section class="content-section">
+      <h2>Our Vision</h2>
+      <blockquote>
+        “To be South Africa’s most loved and trusted candy shop, known for innovation, 
+        quality, and bringing communities together through the universal language of sweetness.”
+      </blockquote>
+    </section>
+
+    <section class="content-section">
+      <h2>Our Core Values</h2>
+      <ul>
+        <li><strong>Quality First:</strong> Using only the finest ingredients for every treat.</li>
+        <li><strong>Local Love:</strong> Supporting local suppliers and artisans.</li>
+        <li><strong>Joy &amp; Nostalgia:</strong> Creating experiences that bring back sweet childhood memories.</li>
+        <li><strong>Innovation:</strong> Blending tradition with creativity to craft new favorites.</li>
+        <li><strong>Community:</strong> Bringing people together through shared sweetness.</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>
+      © <span id="year"></span> Katli’s Candy Shop · Johannesburg, South Africa
+    </p>
+    <p>
+      📞 <a href="tel:+27-000-000-0000">+27 00 000 0000</a> · 
+      📧 <a href="mailto:hello@katliscandy.co.za">hello@katliscandy.co.za</a>
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
