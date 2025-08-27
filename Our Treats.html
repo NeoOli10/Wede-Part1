@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Katli’s Candy Shop • Our Treats</title>
+  <meta name="description" content="Explore Katli’s Candy Shop treats — sour sweets, liquorice sticks, toffees, gift boxes and more." />
+  <link rel="icon" href="CandyLogo.jpg" />
+  <style>
+    body {
+      background: url('Cartoon-Candy-Clipart-edit-online.png') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff5fa;
+    }
+    header, main, footer {
+      background-color: rgba(255, 255, 255, 0.9);
+      margin: 1rem;
+      padding: 1rem;
+      border-radius: 12px;
+    }
+    nav a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: #c2185b;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #8e24aa;
+    }
+    h1, h2 {
+      color: #6a1b9a;
+      text-align: center;
+    }
+    .treats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+      list-style: none;
+    }
+    .treats-grid li {
+      background: #fff;
+      border-radius: 12px;
+      padding: 0.5rem;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .treats-grid img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>🍬 Our Treats</h1>
+    <nav>
+      <a href="home.html">Home</a> ·
+        <a href="about.html">About</a> ·
+        <a href="our treats.html">Our Treats</a> 
+        <a href="visit & Contact.html">Visit & Contact</a>·
+    </nav>
+  </header>
+
+  <!-- Treats Gallery -->
+  <main>
+    <h2>Sweet Selections</h2>
+    <ul class="treats-grid">
+      <li>
+        <img src="image/sours.jpg" alt="Sour Sweets" />
+        <h3>Sour Sweets</h3>
+        <p>A zingy, handmade classic with fruity flavors.</p>
+      </li>
+      <li>
+        <img src="image/stack.jpg" alt="Liquorice Sweet Sticks" />
+        <h3>Liquorice Sticks</h3>
+        <p>Chewy, bold, and perfectly nostalgic.</p>
+      </li>
+      <li>
+        <img src="image/toffy.jpg" alt="Traditional Toffee" />
+        <h3>Traditional Toffees</h3>
+        <p>Buttery toffees &amp; hard candies, just like childhood.</p>
+      </li>
+      <li>
+        <img src="image/OIP.WEBP" alt="Modern Confections" />
+        <h3>Modern Confections</h3>
+        <p>Creative, limited-edition flavors you’ll love.</p>
+      </li>
+      <li>
+        <img src="image/colorful.WEBP" alt="Gift Box" />
+        <h3>Gift Boxes &amp; Party Packs</h3>
+        <p>Perfect for sharing sweetness at any occasion.</p>
+      </li>
+    </ul>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>
+      © <span id="year"></span> Katli’s Candy Shop · Johannesburg, South Africa
+    </p>
+    <p>
+      📞 <a href="tel:+27-000-000-0000">+27 00 000 0000</a> · 
+      📧 <a href="mailto:hello@katliscandy.co.za">hello@katliscandy.co.za</a>
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
